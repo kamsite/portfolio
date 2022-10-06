@@ -4,16 +4,30 @@
     box-sizing: border-box;
 }
 
-.hero {
+img {
+    width: 15vw;
+    height: 100%;
+}
+
+.menu {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+/* .what {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
     align-items: center;
+    background-image: url("assets/images/tysm.jpeg");
+
+    background-clip: text;
 }
 
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+h1 {
+    font-size: calc(2rem+3vw);
+   
+} */
