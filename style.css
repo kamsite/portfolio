@@ -15,6 +15,10 @@ img {
    justify-content: space-between;
    align-items: center;
 }
+.bjork{
+    filter: saturate(90);
+    width: 500px;
+}
 /* .what {
     width: 100vw;
     height: 100vh;
