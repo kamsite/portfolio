@@ -4,34 +4,135 @@
     box-sizing: border-box;
 }
 
+:root {
+  --color-text: #333;
+  --spacing: 1em;
+}
+
+html {
+  font-size: 1.25rem;
+}
+
+body {
+    font-family: Arial;
+}
+
 img {
-    width: 15vw;
-    height: 100%;
+    width: 100%;
+    display: block;
+    margin: var(--spacing) 0;
 }
 
-.menu {
-   display: flex;
-   flex-direction: row;
-   justify-content: space-between;
-   align-items: center;
+a {
+  text-decoration-style: dotted;
+  color: var(--color-text);
 }
-.bjork{
-    filter: saturate(90);
-    width: 500px;
+
+a:hover {
+  text-decoration-style: solid;
 }
-/* .what {
-    width: 100vw;
-    height: 100vh;
+
+/* LEFT COLUMN */
+
+#title a {
+  text-decoration: none;
+  color: rosybrown;
+  text-decoration: underline;     
+  text-decoration-color: lime;
+}
+
+ol {
+    margin-left: 2em;
+    font-size: 1.25rem;
+}
+
+li {
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+}
+
+.column {
+  max-height: 100vh;
+  overflow-y: scroll;
+  padding: 1rem;
+}
+
+#info {
+  font-size: 1.25rem;
+  line-height: 2;
+}
+
+.nav-category {
+    margin: 1.5em 0;
+}
+
+.nav-category h2 {
+    margin-bottom: .5em;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+footer {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    background-image: url("assets/images/tysm.jpeg");
-
-    background-clip: text;
+    justify-content: space-between;
+    max-width: 18rem;
 }
 
-h1 {
-    font-size: calc(2rem+3vw);
-   
-} */
+footer img {
+    max-width: 30px;
+}
+
+/* RIGHT COLUMN */
+
+main {
+  margin-top: 1rem;
+}
+
+.double-photo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing);
+}
+
+.double-photo img {
+  margin: 0;
+}
+
+@media (max-width: 50rem) {
+
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .column {
+      max-height: unset;
+    }
+
+    #left {
+        display: none;
+    }
+
+    .hamburger {
+        position: fixed;
+        top: .5rem;
+        right: .5rem;
+        display: flex;
+        gap: .25rem;
+        padding: .25rem;
+    }
+    
+    .patty {
+        padding: .25em;
+        border-radius: 50%;
+        background-color: salmon;
+    }
+}
