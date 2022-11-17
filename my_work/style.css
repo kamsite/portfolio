@@ -32,13 +32,17 @@ a:hover {
   text-decoration-style: solid;
 }
 
+#title a:hover{
+  color: black
+}
+
 /* LEFT COLUMN */
 
 #title a {
   text-decoration: none;
   color: red;
   text-decoration: underline;     
-  text-decoration-color: blue;
+  text-decoration-color: darkblue;
 }
 
 ol {
