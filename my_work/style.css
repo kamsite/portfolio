@@ -23,6 +23,26 @@ img {
     margin: var(--spacing) 0;
 }
 
+#list li a{
+  color: red;
+}
+
+.etch {
+  display: none;
+ }
+ 
+ .etch-title:hover .etch {
+  display: block;
+ }
+
+.misc {
+ display: none;
+}
+
+.misc-title:hover .misc {
+ display: block;
+}
+
 a {
   text-decoration-style: dotted;
   color: var(--color-text);

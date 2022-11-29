@@ -23,26 +23,6 @@ img {
     margin: var(--spacing) 0;
 }
 
-.etch {
-  display: none;
- }
- 
- .etch-title:hover .etch {
-  display: block;
- }
-
-.misc {
-  display: none;
- }
- 
- .misc-title:hover .misc {
-  display: block;
- }
-
- #list li a{
-  color: red;
-}
-
 a {
   text-decoration-style: dotted;
   color: var(--color-text);
@@ -157,6 +137,6 @@ main {
     .patty {
         padding: .25em;
         border-radius: 50%;
-        background-color: mediumorchid;
+        background-color: black;
     }
 }

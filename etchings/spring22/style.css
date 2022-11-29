@@ -31,7 +31,7 @@ img {
   display: block;
  }
 
-.misc {
+ .misc {
   display: none;
  }
  
@@ -40,9 +40,9 @@ img {
  }
 
  #list li a{
-  color: red;
+  color: greenyellow;
 }
-
+ 
 a {
   text-decoration-style: dotted;
   color: var(--color-text);
@@ -60,9 +60,9 @@ a:hover {
 
 #title a {
   text-decoration: none;
-  color: red;
+  color: magenta;
   text-decoration: underline;     
-  text-decoration-color: darkblue;
+  text-decoration-color: teal;
 }
 
 ol {
@@ -80,7 +80,7 @@ p {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 2fr 6fr;
 }
 
 .column {
@@ -157,6 +157,6 @@ main {
     .patty {
         padding: .25em;
         border-radius: 50%;
-        background-color: mediumorchid;
+        background-color: lime;
     }
 }

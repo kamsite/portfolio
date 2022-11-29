@@ -23,24 +23,16 @@ img {
     margin: var(--spacing) 0;
 }
 
-.etch {
+.about {
   display: none;
  }
  
- .etch-title:hover .etch {
-  display: block;
- }
-
-.misc {
-  display: none;
- }
- 
- .misc-title:hover .misc {
+ .about-title:hover .about {
   display: block;
  }
 
  #list li a{
-  color: red;
+  color: brown;
 }
 
 a {
@@ -53,14 +45,14 @@ a:hover {
 }
 
 #title a:hover{
-  color: black
+  color: rebeccapurple
 }
 
 /* LEFT COLUMN */
 
 #title a {
   text-decoration: none;
-  color: red;
+  color: lime;
   text-decoration: underline;     
   text-decoration-color: darkblue;
 }
@@ -98,7 +90,7 @@ p {
     margin: 1.5em 0;
 }
 
-.nav-category h2 {
+.nav-category h2 h3 {
     margin-bottom: .5em;
     font-weight: 500;
     font-size: 1.5rem;
@@ -157,6 +149,6 @@ main {
     .patty {
         padding: .25em;
         border-radius: 50%;
-        background-color: mediumorchid;
+        background-color: red;
     }
 }

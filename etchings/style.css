@@ -23,6 +23,26 @@ img {
     margin: var(--spacing) 0;
 }
 
+.etch {
+  display: none;
+ }
+ 
+ .etch-title:hover .etch {
+  display: block;
+ }
+
+ .misc {
+  display: none;
+ }
+ 
+ .misc-title:hover .misc {
+  display: block;
+ }
+
+ #list li a{
+  color: mediumslateblue;
+}
+
 a {
   text-decoration-style: dotted;
   color: var(--color-text);
@@ -40,9 +60,9 @@ a:hover {
 
 #title a {
   text-decoration: none;
-  color: red;
+  color: darkblue;
   text-decoration: underline;     
-  text-decoration-color: darkblue;
+  text-decoration-color: lime;
 }
 
 ol {
@@ -60,7 +80,7 @@ p {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 2fr 5fr;
+  grid-template-columns: 2fr 6fr;
 }
 
 .column {
