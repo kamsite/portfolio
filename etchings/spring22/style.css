@@ -80,7 +80,7 @@ p {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 2fr 6fr;
+  grid-template-columns: 2fr 5fr;
 }
 
 .column {
