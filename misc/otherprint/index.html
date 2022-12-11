@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="/lightbox/dist/css/lightbox.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">  
     <script src="jquery-3.6.1.min.js"></script>
     <script src="main.js" defer></script>
-    <title>printemedia</title>
+    <title>printmedia</title>
 </head>
     <body>
         <a href="#" class="hamburger">
@@ -41,7 +42,7 @@
                             <li><a href="/screenprint/index.html">screenprint</a></li>
                             <li><a href="/papermaking/index.html">paper</a></li>
                             <div class="misc-title">
-                                <li> more of me (misc)</li>
+                                <li>(misc)</li>
                                 <div id="list" class="misc">
                                      <ul>
                                     <li><a href="/misc/photo/index.html">photography
@@ -74,19 +75,23 @@
 
         </div>
         <main id="right" class="column">
-            <p>many times i change my mind</p>
-            <img src="/assets/imgs/otheretc/litho/thingcry.jpg" alt="LITHO">
-            <img id="angel" src="/assets/imgs/otheretc/litho/shadow.jpg" alt="LITHO">
-            <img src="/assets/imgs/otheretc/riso/IMG_5287 copy.jpg" alt="RISO">
+            <sub>i try things</sub>
+            <a href="/assets/imgs/otheretc/litho/thingcry.jpg" data-lightbox="set" data-title="lithography, 2021"><img src="/assets/imgs/otheretc/litho/thingcry.jpg" alt="litho 1"></a>
+
+            <a href="/assets/imgs/otheretc/litho/shadow.jpg" data-lightbox="set" data-title="lithography, 2021"><img id="angel" src="/assets/imgs/otheretc/litho/shadow.jpg" alt="litho2"></a>
+
+            <a href="/assets/imgs/otheretc/riso/IMG_5287 copy.jpg" data-lightbox="set" data-title="love to play, 4 color risograph, 2022"><img src="/assets/imgs/otheretc/riso/IMG_5287 copy.jpg"alt="riso1"></a>
+
             <div class="double-photo">
-              <img src="/assets/imgs/otheretc/offset/realonetwo.jpg" alt="crop">
-              <img src="/assets/imgs/otheretc/offset/realone.jpg" alt="placeholder">
+              <a href="/assets/imgs/otheretc/offset/realone.jpg" data-lightbox="set" data-title="how do you do?, offset print on postcard, 2022"><img src="/assets/imgs/otheretc/offset/realonetwo.jpg" alt="offsetcard"></a>
+              <a href="/assets/imgs/otheretc/offset/realonetwo.jpg" data-lightbox="set" data-title="gate collector, offset print on postcard, 2022"><img src="/assets/imgs/otheretc/offset/realone.jpg" alt="offsetcard2"></a>
             </div>
 
-            <img src="/assets/imgs/otheretc/offset/omgomg.jpg" alt="placeholder">
-            <img src="/assets/imgs/otheretc/riso/crop.jpeg" alt="placeholder">
+            <a href="/assets/imgs/otheretc/offset/omgomg.jpg" data-lightbox="set" data-title="my godness, offset editon of 50, 2022 "><img src="/assets/imgs/otheretc/offset/omgomg.jpg" alt="placeholder"></a>
+
+            <a href="/assets/imgs/otheretc/riso/crop.jpeg" data-lightbox="set" data-title="crop collection, risograph, 2022"><img src="/assets/imgs/otheretc/riso/crop.jpeg" alt="placeholder"></a>
         </main>
     </div>
-    
+    <script src="/lightbox/dist/js/lightbox-plus-jquery.js"></script>   
 </body>
 </html>
