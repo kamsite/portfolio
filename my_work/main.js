@@ -20,3 +20,14 @@ $('.hamburger').click(function(){
   $('#left').slideToggle('fast');
 })
 
+// $('.etch-title').click(function(){
+
+//   $(this).child('.etch').toggle();
+
+// })
+
+// $('.etch-title').click(function(){
+
+//   $(this).child('.misc').toggle();
+
+// })
