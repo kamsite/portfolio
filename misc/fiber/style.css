@@ -89,9 +89,9 @@ overflow-y: scroll;
 padding: 1rem;
 }
 
-#info {
-font-size: 1.25rem;
-line-height: 2;
+#back {
+font-size: 2rem;
+line-height: 1;
 }
 
 .nav-category {
